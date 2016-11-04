@@ -10,6 +10,8 @@ There are 3 tools that you need to install on your local machine, in order to pr
 - `Terraform <http://terraform.io/>`_ (0.7.8 or higher) to fire-up the virtual infrastructure on the host cloud
 - `Ansible <http://ansible.com/>`_ (2.1.2.0 or higher) to provision the VMs (e.g. install and configure networking, reverse proxy etc.)
 
+Ubuntu notes: The Ansible version shipped in 16.04 (2.0.0.2) is not recent enough.
+
 Get KubeNow
 -----------
 
